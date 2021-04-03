@@ -1,0 +1,42 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+	background: url(./BG1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+h1 {
+	color: white;
+	font-size: 4em;
+	font-weight: bold;
+}
+
+hr {
+	border-top: 4px solid white;
+	width: 50%;
+}
+
+.btn {
+	font-weight: 100;
+	border-radius: 200px;
+}
+.btn-primary {
+	background-color: whitesmoke;
+	color: black;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: gray;
+	border-color: white;
+	color: black;
+	border-width: 2px;
+}
+.btn-1 {
+	padding: 1rem 2rem;
+	border-color: white;
+}
